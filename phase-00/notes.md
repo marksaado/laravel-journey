@@ -69,3 +69,10 @@
 - **modified** = ملف مراقَب تغيّر بعد آخر commit. **Untracked** = جديد لم يُراقَب أبداً.
 - `git diff ملف` ← `-` أحمر قديم، `+` أخضر جديد. الخروج بـ `q`. نفّذه قبل `git add`.
 - `git log --oneline` ← الأحدث في الأعلى. `HEAD -> main` = أنت هنا الآن.
+
+## GitHub
+- **remote** = نسخة الـ repo على GitHub. **local** = نسختك.
+- إنشاء المستودع على GitHub **فارغاً** (بلا README) إذا كان عندك commits محلياً، وإلا رُفض الـ push لأن البعيد فيه commit ليس عندك.
+- `git remote add origin URL` ثم `git remote -v`.
+- أول مرة: `git push -u origin main`. بعدها: `git push`.
+- رسائل commits ملفات التقدم: `Update progress: <الدرس>`.
