@@ -57,3 +57,10 @@
 - `git init` ← يجعل المجلد repo. `ls -a` يُظهر المخفي.
 - `git status` ← أهم أمر: نفّذه قبل كل خطوة وبعدها.
 - **Untracked** = Git يرى الملف لكنه لا يراقبه، لأننا لم نضفه بعد بـ `git add`.
+
+## Git: الحفظ على خطوتين
+- `git add ملف` / `git add .` ← إلى الـ **staging area** (Changes to be committed).
+- `git commit -m "Add contact page"` ← لقطة لما في الـ staging فقط.
+- **لماذا خطوتان؟** لكي يكون كل commit تغييراً واحداً له معنى ورسالة واضحة، فيمكن الرجوع إليه وحده.
+- رسالة جيدة: فعل إنجليزي + ماذا تغيّر (Add / Fix / Update / Remove).
+- Git لا يحفظ المجلدات الفارغة ← `.gitkeep`.
