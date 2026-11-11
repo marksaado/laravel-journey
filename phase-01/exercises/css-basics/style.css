@@ -15,3 +15,13 @@ h2 {
 p {
   font-size: 18px;
 }
+
+.hours {
+  color: #ffffff;
+  background-color: #7a3e00;
+}
+
+h2,
+h3 {
+  font-family: Arial, sans-serif;
+}
