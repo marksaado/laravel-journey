@@ -26,6 +26,31 @@
         <label for="size_large">Large</label>
       </fieldset>
 
+      <fieldset>
+        <legend>Extras</legend>
+
+        <input type="checkbox" name="extras" id="extra_milk" value="milk" />
+        <label for="extra_milk">Milk</label>
+
+        <input type="checkbox" name="extras" id="extra_sugar" value="sugar" />
+        <label for="extra_sugar">Sugar</label>
+
+        <input
+          type="checkbox"
+          name="extras"
+          id="extra_cinnamon"
+          value="cinnamon"
+        />
+        <label for="extra_cinnamon">Cinnamon</label>
+      </fieldset>
+
+      <label for="cup">Cup</label>
+      <select name="cup" id="cup">
+        <option value="paper">Paper cup</option>
+        <option value="ceramic" selected>Ceramic mug</option>
+        <option value="own">My own cup</option>
+      </select>
+
       <button>Order</button>
     </form>
   </body>
