@@ -20,8 +20,8 @@
 
 ## الحالة الحالية
 - **المرحلة:** 1 — HTML وCSS وTailwind (بدأت 2026-11-10). المرحلة 0 منجزة 2026-11-10.
-- **المهمة الحالية:** المهمة 4 — المشروع 3: نموذج تسجيل (Twente Sports Club) في `phase-01/projects/registration-form/`. دروس النماذج واختبارها منجزة ✅.
-- **الخطوة التالية بالضبط:** يحذف مارك Saturday وSunday من select في المشروع 3، ويجيب عن «لماذا أضفتهما؟» (المراجعة في `reviews/2026-11-11-registration-form.md`). بعد القبول: المهمة 5 (CSS).
+- **المهمة الحالية:** المهمة 5 — CSS. الدرس 5أ: ما هو CSS، وربط ملف CSS، وبنية القاعدة، وأول الخصائص (color، background-color، font-family، font-size). المهمة 4 منجزة ✅.
+- **الخطوة التالية بالضبط:** ينفّذ مارك تمرين 5أ في `phase-01/exercises/css-basics/` ويجيب عن سؤاليه.
 
 ### مهام المرحلة 1
 | # | المهمة | الحالة |
@@ -30,8 +30,8 @@
 | 1 | HTML الدلالي: عناصر الهيكل، والعناوين، وarticle/section/aside | منجزة ✅ |
 | 2 | مشروع 1: صفحة مقال دلالية + فحص Lighthouse | منجزة ✅ |
 | 3 | الروابط والصور وأساسيات إمكانية الوصول | منجزة ✅ |
-| 4 | النماذج وأنواع الحقول والتحقق المدمج ← مشروع 3: نموذج تسجيل | قيد العمل |
-| 5 | CSS: selectors، وbox model، وspecificity، ومتغيرات CSS | لم تبدأ |
+| 4 | النماذج وأنواع الحقول والتحقق المدمج ← مشروع 3: نموذج تسجيل | منجزة ✅ |
+| 5 | CSS: selectors، وbox model، وspecificity، ومتغيرات CSS | قيد العمل |
 | 6 | Flexbox ← مشروع 2: صفحة هبوط | لم تبدأ |
 | 7 | Grid والتصميم المتجاوب ← مشروع 4: لوحة تحكم | لم تبدأ |
 | 8 | Tailwind CSS | لم تبدأ |
@@ -76,6 +76,7 @@
 | المرحلة | المشروع | رابط GitHub |
 |---|---|---|
 | 0 | مستودع laravel-journey بأول commit | https://github.com/marksaado/laravel-journey |
+| 1 | مشروع 3: نموذج تسجيل Twente Sports Club | https://github.com/marksaado/laravel-journey/tree/main/phase-01/projects/registration-form |
 | 1 | مشروع 1: صفحة مقال Tech Notes | https://github.com/marksaado/laravel-journey/tree/main/phase-01/projects/article-page |
 | 0 | علامة الانتقال: phase0-check | https://github.com/marksaado/phase0-check |
 | 0 | صفحة شخصية على GitHub Pages | https://github.com/marksaado/marksaado.github.io ← https://marksaado.github.io |
