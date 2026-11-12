@@ -1,3 +1,7 @@
+:root {
+  --brown: #7a3e00;
+}
+
 body {
   background-color: #fdf6ec;
   font-family: Georgia, serif;
@@ -24,7 +28,7 @@ p {
 
 .hours {
   color: #ffffff;
-  background-color: #7a3e00;
+  background-color: var(--brown);
   padding: 12px 20px;
   border: 4px solid #a0522d;
   margin: 30px 0;
