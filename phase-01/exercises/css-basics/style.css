@@ -18,6 +18,10 @@ p {
   font-size: 18px;
 }
 
+#today-hours {
+  background-color: #2e7d32;
+}
+
 .hours {
   color: #ffffff;
   background-color: #7a3e00;
