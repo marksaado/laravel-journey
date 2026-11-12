@@ -1,5 +1,5 @@
 :root {
-  --brown: #7a3e00;
+  --brown: black;
   --rust: #a0522d;
 }
 
@@ -48,4 +48,8 @@ h1 {
 
 p {
   color: blue;
+}
+
+footer {
+  border-top: 3px dotted var(--rust);
 }
