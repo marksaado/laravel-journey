@@ -32,6 +32,11 @@ h2,
 h3 {
   font-family: Arial, sans-serif;
 }
+
 h1 {
   color: green;
+}
+
+p {
+  color: blue;
 }
