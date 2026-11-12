@@ -10,6 +10,7 @@ h1 {
 
 h2 {
   color: #a0522d;
+  border-bottom: 2px solid #a0522d;
 }
 
 p {
@@ -20,6 +21,7 @@ p {
   color: #ffffff;
   background-color: #7a3e00;
   padding: 12px 20px;
+  border: 4px solid #a0522d;
 }
 
 h2,
