@@ -105,3 +105,14 @@
 - الاستخدام: `color: var(--brown);`. بدون `var()` لا يعمل (`color: --main;` خطأ).
 - `var()` يمكن أن يكون جزءاً من قيمة: `border: 4px solid var(--rust);`.
 - الفائدة: تغيير لون الموقع كله من سطر واحد. لكن المتغير لا يتجاوز الـ specificity: إن غلبت قاعدة أقوى، فتغيير المتغير لا يغيّر ما يظهر.
+
+## Flexbox (المهمة 6، الدروس 6أ-6د)
+- كل خصائص Flexbox هنا تُكتب على **الأب** (flex container)، وتؤثر في **أبنائه المباشرين** فقط (flex items). الحفيد لا يتأثر، فإن احتجته في سطر، اجعل أباه flex أيضاً (مثل `.links` داخل `.navbar`).
+- `display: flex;` ← الأبناء في سطر واحد، وعرض كل ابن بقدر محتواه.
+- `gap: 20px;` ← مسافة **بين** الأبناء فقط، لا على الأطراف. مع n أبناء توجد n − 1 مسافة (4 أبناء و10px ← 30px). أفضل من `margin-right` الذي يضيف مسافة بعد الأخير.
+- `justify-content` ← **أفقي**: `flex-start` (الافتراضي، يسار)، و`center`، و`flex-end` (يمين)، و`space-between` (الأول يساراً والأخير يميناً والفراغ بينهم). `gap` تبقى أقل مسافة.
+- `align-items` ← **عمودي**: `stretch` (الافتراضي، الأبناء يملؤون ارتفاع الأب)، و`flex-start` (أعلى)، و`center`، و`flex-end` (أسفل).
+- `align-items` لا يظهر أثرها إلا إذا كان الأب أطول من أبنائه (مثلاً `height: 100px;`). بدون `height` ارتفاع الأب = أطول ابن، فلا فراغ عمودي.
+- توسيط ابن في منتصف صندوق تماماً: `justify-content: center;` + `align-items: center;` + ارتفاع للأب.
+- شريط تنقّل: `.navbar { display: flex; justify-content: space-between; align-items: center; height: 60px; padding: 0 20px; }` و`.links { display: flex; gap: 20px; }`.
+- انتبه عند القراءة: `justify-content` و`align-items` يتشابهان شكلاً، والفرق هو الاتجاه.
